@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "express-fileupload": "^1.2.1",
     "pg": "^8.7.1",
     "pg-pool": "^3.4.1"
   }
