@@ -9,4 +9,5 @@ module.exports = {
     DB_PASS: env.DB_PASS,
     LOGIN: env.LOGIN,
     PASS: env.PASS,
+    connectionString: env.connectionString,
 };

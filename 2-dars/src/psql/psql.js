@@ -8,10 +8,13 @@ const pool = new Pool({
 async function init() {
     try {
         const client = await pool.connect();
+        console.log(true);
         return client;
     } catch (e) {
         console.log(`DB_ERROR: `, e);
     }
 }
+
+init();
 
 module.exports = init;
